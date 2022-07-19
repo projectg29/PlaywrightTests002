@@ -8,6 +8,7 @@ public class NunitPlaywright : PageTest
     [SetUp]
     public async Task Setup()
     {
+        // POM is started
         //When you want to run in cmdline mode and with browser open set below env option and run test
         //PS C:\Users\rajan\Automation\DotNet\PlaywrightDemos\PlaywrightTests002 > $env: HEADED = 1
         //PS C:\Users\rajan\Automation\DotNet\PlaywrightDemos\PlaywrightTests002 > dotnet test

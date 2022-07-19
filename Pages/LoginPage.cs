@@ -29,7 +29,7 @@ namespace PlaywrightTests002.Pages
 
         }
 
-        public async Task ClickLogin() => await _lnkLogin.CheckAsync(); // This is call expression body syntax. It reduces the line of code in C#
+        public async Task ClickLogin() => await _lnkLogin.CheckAsync(); // This is call expression body syntax. It reduces the line of code in C# code
 
 
     }
